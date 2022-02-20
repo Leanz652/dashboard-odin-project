@@ -117,6 +117,13 @@ flex-basis: 20%;
     flex-direction: column;
 }
 
+.fixed {
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .side__tittle {
     display: flex;
     align-items: center;
